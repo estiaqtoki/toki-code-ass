@@ -20,6 +20,22 @@
     cursor: pointer;
 
 }
+.section-heading{
+    max-width: 120px;
+    text-align: center;
+}
+.section-heading h2{
+font-size: 48px;
+margin-bottom: 16px;
+}
+.section-heading p{
+    font-size: 16px;
+    margin-bottom: 44px;
+    line: height 20px;
+    color:rgba(98, 115, 130, 1);
+;
+}
+
 .bmw{
     background-color: rgba(255, 255, 255, 1) ;
   
@@ -33,7 +49,8 @@ header{
        padding: top 16px;;
 }
 #banner {
-     background: url(../images/hero-bg.png);
+     background: url(/images/hero-bg.png)
+;
      
 }
 nav{
@@ -59,17 +76,21 @@ nav .menu a{
 }
 #banner{
    /* border: 1px solid blue;*/
-    margin: 115.5px 179.5px 120px 120px ;
+    margin: 115.5px 0px 0px 120px ;
     text-align: center;
+    vertical-align: middle;
   
 ;
 }
 #banner .banner-content h6{
-    font: size 16px ;
+    text-align: center;
     font-size: 500;
-    color: rgba(70, 145, 101, 1);
+    background: rgba(70, 145, 101, 1);
+
+
     border-radius: 1000;
-    background-color: rgba(255, 255, 255, 1);
+  background: rgba(255, 255, 255, 1);
+
 
    border-bottom: 8px 12px 8px 12px;
    gap: 6px;
@@ -107,5 +128,35 @@ gap: 16px;
   color:rgba(255, 255, 255, 1);
 
    margin-bottom: 24px; 
-;
+
+}
+
+#about{
+    padding top: 120px;
+}
+
+#about .about-container{
+    width: 88%;
+    max-width: 1600px;
+    max-width: 0 auto;
+    text-align: center;
+    padding: 120px 120px;
+}
+
+#about .about-container .about-info{
+    display: flex;
+    justify-content: space-between;
+}
+.about-inf-cardo .info h2{
+    font-size: 24px;
+    font-style: semi bold;
+margin-bottom: 16px;
+color:  var(--Color, rgba(0, 25, 49, 1));
+
+}
+
+.about-inf-cardo .info p{
+    font-size: 16px;
+    line: height 20px;
+    color: rgba(98, 115, 130, 1);
 }
