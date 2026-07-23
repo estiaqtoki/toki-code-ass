@@ -325,7 +325,7 @@ nav .menu a {
 }
 
 .footer {
-  background-color: #031B2E; /* ডার্ক নেভি ব্লু ব্যাকগ্রাউন্ড */
+  background-color: #031B2E;
   color: #ffffff;
   padding: 60px 0 30px 0;
 }
@@ -340,7 +340,7 @@ nav .menu a {
 }
 
 .footer-logo img {
-  height: 45px; /* আপনার লোগোর সাইজ অনুযায়ী অ্যাডজাস্ট করতে পারেন */
+  height: 45px;
   object-fit: contain;
 }
 
